@@ -1,0 +1,104 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 18px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+body {
+	background: rgb(165 159 159 / 33%);
+}
+.container{
+	max-width: 870px;
+	margin: 0 auto;
+}
+.text-above{
+	text-align: center;
+}
+.text-above>p {
+	margin-top: 40px;
+}
+h1{
+	font-weight: 400;
+	font-family: 'DM Sans', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.img{
+	text-align: center;
+}
+.img1{
+	box-shadow: 10px 10px 10px 10px rgba(117, 76, 76, 0.33);
+}
+.text-bottom{
+	margin-left: 50px;
+}
+.p-top{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.p-bottom{
+	margin-bottom: 40px;
+}
+.list{
+	margin-bottom: 30px;
+}
+.list li{
+	padding-top: 15px;
+	padding-left: 30px;
+	background: url('./check\ icon.png') left 10px no-repeat;
+}
+.li-w{
+	font-weight: 500;
+}
+.li-c{
+	font-weight: 500;
+	font-style: italic;
+	color: rgb(113, 183, 211);
+}
+.li-ls{
+	color: rgba(174, 185, 196, 0.945);
+	text-decoration: line-through;
+}
+.button{
+	background: url('./Shape\ 2.png') right 30px center no-repeat;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding: 15px 70px;
+	color: snow;
+	background-color: skyblue;
+}
+.button:hover{
+	background-color: rgb(109, 189, 221);
+	transition: 400ms;
+}
